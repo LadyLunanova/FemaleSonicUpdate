@@ -1,0 +1,90 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Mod Version",
+         "Elements":
+         [
+            {
+               "Name":"IncludeDir0",
+               "DisplayName":"Sock Type",
+               "Description":[
+                  "Choose which socks you want Sonic to wear.",
+               ],
+               "Type":"SockType",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"disk_default"
+            },
+         ]
+      }
+   ],
+   "Enums":{
+      "SockType":[
+         {
+            "DisplayName":"Default",
+            "Value":"disk_default",
+            "Description":[
+               "Default Socks",
+            ]
+         },
+         {
+            "DisplayName":"Trans Pride",
+            "Value":"disk_trans",
+            "Description":[
+               "Trans Pride Socks",
+            ]
+         },
+         {
+            "DisplayName":"Non-Binary Pride",
+            "Value":"disk_nb",
+            "Description":[
+               "Non-Binary Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"Gay Pride",
+            "Value":"disk_gay",
+            "Description":[
+               "Gay Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"Bisexual Pride",
+            "Value":"disk_bi",
+            "Description":[
+               "Bisexual Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"GenderFluid Pride",
+            "Value":"disk_gfluid",
+            "Description":[
+               "GenderFluid Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"Lesbian Pride",
+            "Value":"disk_lesb",
+            "Description":[
+               "Lesbian Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"Pansexual Pride",
+            "Value":"disk_pan",
+            "Description":[
+               "Pansexual Pride Socks",
+            ]
+         },
+		 {
+            "DisplayName":"Asexual Pride",
+            "Value":"disk_asex",
+            "Description":[
+               "Asexual Pride Socks",
+            ]
+         }
+      ]
+   },
+   "IniFile":"mod.ini"
+}
